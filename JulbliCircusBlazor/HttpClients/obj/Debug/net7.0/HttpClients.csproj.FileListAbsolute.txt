@@ -1,0 +1,85 @@
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\HttpClients.deps.json
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\HttpClients.dll
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\HttpClients.pdb
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\Contracts.dll
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\DTO.dll
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\Contracts.pdb
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\DTO.pdb
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.csproj.AssemblyReference.cache
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.AssemblyInfoInputs.cache
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.AssemblyInfo.cs
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.csproj.CopyComplete
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.dll
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\refint\HttpClients.dll
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.pdb
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\ref\HttpClients.dll
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\HttpClients.deps.json
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\HttpClients.dll
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\HttpClients.pdb
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\Contracts.dll
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\DTO.dll
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\Contracts.pdb
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\bin\Debug\net7.0\DTO.pdb
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.csproj.AssemblyReference.cache
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.AssemblyInfoInputs.cache
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.AssemblyInfo.cs
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.csproj.CoreCompileInputs.cache
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.csproj.CopyComplete
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.dll
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\refint\HttpClients.dll
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\HttpClients.pdb
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\HttpClients\obj\Debug\net7.0\ref\HttpClients.dll
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.csproj.AssemblyReference.cache
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.AssemblyInfoInputs.cache
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.AssemblyInfo.cs
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.csproj.CoreCompileInputs.cache
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.dll
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\refint\HttpClients.dll
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.pdb
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\HttpClients.deps.json
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\HttpClients.dll
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\HttpClients.pdb
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\Contracts.dll
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\DTO.dll
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\Contracts.pdb
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\DTO.pdb
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.csproj.CopyComplete
+C:\Users\Test\source\repos\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\ref\HttpClients.dll
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\HttpClients.deps.json
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\HttpClients.dll
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\HttpClients.pdb
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\Contracts.dll
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\DTO.dll
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\Contracts.pdb
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\DTO.pdb
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.csproj.AssemblyReference.cache
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.AssemblyInfoInputs.cache
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.AssemblyInfo.cs
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.csproj.CoreCompileInputs.cache
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.csproj.CopyComplete
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.dll
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\refint\HttpClients.dll
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.pdb
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\ref\HttpClients.dll
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\HttpClients.deps.json
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\HttpClients.dll
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\HttpClients.pdb
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\Contracts.dll
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\DTO.dll
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\Contracts.pdb
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\bin\Debug\net7.0\DTO.pdb
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.csproj.AssemblyReference.cache
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.AssemblyInfoInputs.cache
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.AssemblyInfo.cs
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.csproj.CoreCompileInputs.cache
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.csproj.CopyComplete
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.dll
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\refint\HttpClients.dll
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\HttpClients.pdb
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\HttpClients\obj\Debug\net7.0\ref\HttpClients.dll

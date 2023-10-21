@@ -1,0 +1,147 @@
+﻿@page "/Admin/CreateShows"
+@inject ICircusService CircusService;
+@inject NavigationManager navMgr;
+@using Contracts;
+@using DTO;
+
+
+<h3>CreateShows</h3>
+<CascadingAuthenticationState>
+<AuthorizeView Policy="Admin">
+    <NotAuthorized>
+        <p> Guests dont have permission to update/Add Circus Shows. Contact us if you have any suggestions</p>
+    </NotAuthorized>
+    <Authorized>
+        <div id="main-wrapper" class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <div class="row no-gutters">
+                                <div class="col-lg-6">
+                                    <div class="p-5">
+                                        <div class="mb-5">
+                                            <h3 class="h4 font-weight-bold text-theme">Create an account</h3>
+                                        </div>
+                                        <h6 class="h5 mb-0"> "Welcome to Julbli Circus Denmark"! Enter credentials and login as a Admin to Add Show, if your don't have login please find below option to create account</h6>
+
+                                        @*<form></form>*@
+                                        <div class="form-group mt-3">
+                                            <label for="exampleInputTitle1">Title</label>
+                                            <input type="text" class="form-control" id="exampleInputTitle1" @bind="_showToCreate.title">
+                                        </div>
+                                        @*<form> <div class="form-group mt-3">
+                                                <label for="exampleInputLocation1">Location</label>
+                                                <input type="text" class="form-control" id="exampleInputLocation1" @bind="_showToCreate.Location">
+                                            </div></form>*@
+                                        <div class="form-group mt-3">
+                                            <label for="exampleInputLocation1">Location(* Seperate locations by ",")</label>
+                                            <textarea class="form-control" @bind="_locations" id="exampleInputLocation1" name="text" placeholder="Location" rows="3"  ></textarea>
+                                        </div>
+                                            
+                                        <div class="form-group mt-3">
+                                            <label for="exampleInputPrice1">Price</label>
+                                            <input type="text" class="form-control" id="exampleInputPrice1" @bind="_showToCreate.Price">
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="exampleInputtotalTicketsAvailable1">totalTicketsAvailable</label>
+                                            <input type="text" class="form-control" id="exampleInputtotalTicketsAvailable1" @bind="_showToCreate.totalTicketsAvailable">
+                                        </div>
+                                        <div class="form-group mb-5 mt-3">
+                                            <label for="exampleInputstartTime1">startTime (format 25-August-2023:09:00)</label>
+                                            <input type="text" class="form-control" id="exampleInputstartTime1" @bind="_showToCreate.startTime">
+                                        </div>
+                                        <div class="form-group mb-5 mt-3">
+                                            <label for="exampleInputendTime1">endTime (format 25-August-2023:09:00)</label>
+                                            <input type="text" class="form-control" id="exampleInputendTime1" @bind="_showToCreate.endTime">
+                                        </div>
+                                        <div class="form-group mb-5 mt-3">
+                                            <label for="exampleInputduration1">duration</label>
+                                            <input type="text" class="form-control" id="exampleInputduration1" @bind="_showToCreate.duration">
+                                        </div>
+                                        <div class="form-group mb-5 mt-3">
+                                            <label for="exampleInputDescription1">Description</label>
+                                            <input type="text" class="form-control" id="exampleInputDescription1" @bind="_showToCreate.Description">
+                                        </div>
+                                        <button type="button" class="btn btn-theme" @onclick="CreateCircusAsync">CreateCircusShow</button>
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        @if (!string.IsNullOrEmpty(errorLabel))
+                        {
+                            <div class="errorPrompt">
+                                <label> @errorLabel</label>
+                            </div>
+                        }
+                    </div>
+                    <!-- end card -->
+
+                    <p class="text-center mb-10">Already have an account? <a href="/Login" class="text-primary ml-1">Login</a></p>
+
+                    <!-- end row -->
+
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- Row -->
+        </div>
+        
+         @if (_showModal) {
+                    <Modal>
+                        <p> CircusShow has been created successfully</p>
+                        <div>
+                            <button class="btn btn-theme" @onclick="Proceed">Close</button>
+                        </div>
+                    </Modal>
+                }
+
+    </Authorized>
+</AuthorizeView>
+</CascadingAuthenticationState>
+
+@code {
+
+    private CircusShowDTO _showToCreate = new CircusShowDTO();
+    private string errorLabel = "";
+    private bool _showModal = false;
+    private string _locations = string.Empty;
+
+    private async Task CreateCircusAsync() {
+        try
+        {
+            FillAllShowFields();
+            errorLabel = "All Fields must be set";
+            await CircusService.CreateCircusShow(_showToCreate);
+            _showModal = true;
+        }
+        catch (Exception e) {
+            Console.WriteLine(e);
+            errorLabel = $"Error : {e.Message}";
+        }
+    }
+    
+    
+    private void FillAllShowFields() {
+        if ((!string.IsNullOrWhiteSpace(_showToCreate.title))) {
+            if (string.IsNullOrWhiteSpace(_locations)) {
+                _showToCreate.Location = new List<string>();
+            }
+            else {
+                _showToCreate.Location= _locations.Split(",")
+                    .Select(location => location.Trim()).ToList();
+            }
+        }
+        else {
+            throw new Exception("Required fields are not filled");
+        }
+    }
+
+    private void Proceed() {
+        _showModal = false;
+        navMgr.NavigateTo("/");
+    }
+
+}

@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = JulbliCircusBlazor
+build_property.RootNamespace = JulbliCircusBlazor
+build_property.ProjectDir = C:\Users\Test\source\repos\JulbliCircusBlazor\JulbliCircusBlazor\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Test\source\repos\JulbliCircusBlazor\JulbliCircusBlazor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Admin/AllReservation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWxsUmVzZXJ2YXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Admin/CreateShows.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ3JlYXRlU2hvd3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Guest/Shows.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3Vlc3RcU2hvd3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Login/CreatAccount.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cQ3JlYXRBY2NvdW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Login/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wbyz87fpla
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ingkgtll5q
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Test/source/repos/JulbliCircusBlazor/JulbliCircusBlazor/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,60 @@
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\DTO\bin\Debug\net7.0\DTO.deps.json
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\DTO\bin\Debug\net7.0\DTO.dll
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\DTO\bin\Debug\net7.0\DTO.pdb
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.csproj.AssemblyReference.cache
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.AssemblyInfoInputs.cache
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.AssemblyInfo.cs
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.dll
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\refint\DTO.dll
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.pdb
+C:\Users\Bruger\RiderProjects\SEP3_VIA-master (2)\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\ref\DTO.dll
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\DTO\bin\Debug\net7.0\DTO.deps.json
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\DTO\bin\Debug\net7.0\DTO.dll
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\DTO\bin\Debug\net7.0\DTO.pdb
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.csproj.AssemblyReference.cache
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.AssemblyInfoInputs.cache
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.AssemblyInfo.cs
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.dll
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\refint\DTO.dll
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\DTO.pdb
+C:\Users\Test\IdeaProjects\SEP3_VIA-Group8\SEP3_VIA-Group8\SEP3_VIA-master\CanteenServicePresentation\DTO\obj\Debug\net7.0\ref\DTO.dll
+C:\Users\Test\source\repos\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.csproj.AssemblyReference.cache
+C:\Users\Test\source\repos\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Test\source\repos\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.AssemblyInfoInputs.cache
+C:\Users\Test\source\repos\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.AssemblyInfo.cs
+C:\Users\Test\source\repos\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Test\source\repos\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.dll
+C:\Users\Test\source\repos\JulbliCircusBlazor\DTO\obj\Debug\net7.0\refint\DTO.dll
+C:\Users\Test\source\repos\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.pdb
+C:\Users\Test\source\repos\JulbliCircusBlazor\DTO\bin\Debug\net7.0\DTO.deps.json
+C:\Users\Test\source\repos\JulbliCircusBlazor\DTO\bin\Debug\net7.0\DTO.dll
+C:\Users\Test\source\repos\JulbliCircusBlazor\DTO\bin\Debug\net7.0\DTO.pdb
+C:\Users\Test\source\repos\JulbliCircusBlazor\DTO\obj\Debug\net7.0\ref\DTO.dll
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\bin\Debug\net7.0\DTO.deps.json
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\bin\Debug\net7.0\DTO.dll
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\bin\Debug\net7.0\DTO.pdb
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.csproj.AssemblyReference.cache
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.AssemblyInfoInputs.cache
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.AssemblyInfo.cs
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.csproj.CoreCompileInputs.cache
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.dll
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\refint\DTO.dll
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.pdb
+C:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\ref\DTO.dll
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\bin\Debug\net7.0\DTO.deps.json
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\bin\Debug\net7.0\DTO.dll
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\bin\Debug\net7.0\DTO.pdb
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.csproj.AssemblyReference.cache
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.AssemblyInfoInputs.cache
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.AssemblyInfo.cs
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.csproj.CoreCompileInputs.cache
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.dll
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\refint\DTO.dll
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\DTO.pdb
+D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\DTO\obj\Debug\net7.0\ref\DTO.dll

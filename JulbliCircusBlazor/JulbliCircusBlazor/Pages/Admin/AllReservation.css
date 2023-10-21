@@ -1,0 +1,47 @@
+/* All Reservations Page CSS */
+.all-reservations-page {
+    margin: 20px;
+    padding: 10px;
+}
+
+.all-reservations-page h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.all-reservations-page p {
+    font-size: 16px;
+    color: #dc3545;
+}
+
+.all-reservations-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.all-reservations-page table th, .all-reservations-page table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.all-reservations-page table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.all-reservations-page table td button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.all-reservations-page table td button:hover {
+    background-color: #c82333;
+}
+

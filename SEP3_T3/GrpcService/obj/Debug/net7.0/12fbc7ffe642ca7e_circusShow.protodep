@@ -1,0 +1,2 @@
+obj\Debug\net7.0\Protos/CircusShow.cs \
+obj\Debug\net7.0\Protos/CircusShowGrpc.cs: Protos/circusShow.proto

@@ -1,0 +1,119 @@
+﻿@page "/Guest/ShowBooking"
+@inject IReservationService ReservationService;
+@inject ICircusService CircusService;
+@inject NavigationManager navMgr;
+@using Contracts;
+@using DTO;
+@using System.Threading.Tasks;
+
+
+<h3>View Shows</h3>
+<CascadingAuthenticationState>
+    <AuthorizeView Policy="All">
+        <NotAuthorized>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Description</td>
+                        <td>Price</td>
+                        <td>Duration</td>
+                        <td>StartTime</td>
+                        <td>EndTime</td>
+                        <td>Tickets Available</td>
+                        <td>Location</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (CircusShowDTO show in shows)
+                    {
+                        <tr>
+                            <td>@show.title</td>
+                            <td>@show.Description</td>
+                            <td>@show.Price</td>
+                            <td>@show.duration</td>
+                            <td>@show.startTime</td>
+                            <td>@show.endTime</td>
+                            <td>@show.totalTicketsAvailable</td>
+                            <td>@string.Join(',', show.Location)</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </NotAuthorized>
+        <Authorized>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Description</td>
+                        <td>Price</td>
+                        <td>Duration</td>
+                        <td>StartTime</td>
+                        <td>EndTime</td>
+                        <td>Tickets Available</td>
+                        <td>Location</td>
+                        <td>Book</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (CircusShowDTO show in shows)
+                    {
+                        <tr>
+                            <td>@show.title</td>
+                            <td>@show.Description</td>
+                            <td>@show.Price</td>
+                            <td>@show.duration</td>
+                            <td>@show.startTime</td>
+                            <td>@show.endTime</td>
+                            <td>@show.totalTicketsAvailable</td>
+                            <td>@string.Join(',', show.Location)</td>
+                            <td><button @onclick="() => ShowFormModal(show)">book now</button></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            @if (isModalOpen)
+            {
+                <ShowFormModalm SelectedShow="selectedShow" />
+            }
+
+        </Authorized>
+    </AuthorizeView>
+</CascadingAuthenticationState>
+
+
+
+@code {
+
+    private CreateReservationDTO _reservationDTO = new CreateReservationDTO();
+    private string errorLabel = string.Empty;
+    private bool _showModal = false;
+
+    List<CircusShowDTO> shows = new List<CircusShowDTO>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        shows = await CircusService.GetAllCircusShows();
+    }
+
+
+    // Initialize the list of shows (You can fetch the data from your data source here)
+    private bool isModalOpen = false;
+    private CircusShowDTO selectedShow;
+
+    // This property will store the ID of the selected show
+    private int selectedShowId;
+
+    // This is the method to open the modal and display the selected show
+    private void ShowFormModal(CircusShowDTO show)
+    {
+        // Store the selected show and its ID
+        selectedShow = show;
+        selectedShowId = show.Id;
+
+        // Open the modal
+        isModalOpen = true;
+    }
+
+}

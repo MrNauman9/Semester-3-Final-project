@@ -1,0 +1,51 @@
+﻿@page "/Guest/Shows"
+@inject ICircusService CircusService;
+@inject NavigationManager navMgr;
+@using Contracts;
+@using DTO;
+
+<!-- Add the link to the CSS file in the head section -->
+<head>
+    <link href="/css/Shows.css" rel="stylesheet" />
+</head>
+
+<h3>All Shows</h3>
+<CascadingAuthenticationState>
+    <AuthorizeView Policy="Guest">
+        <NotAuthorized>
+            <p> Guests dont have permission to update Circus Shows. Contact us if you have any suggestions</p>
+        </NotAuthorized>
+        <Authorized>
+            jijoijkllkjlkjkjkjllljl
+        </Authorized>
+    </AuthorizeView>
+</CascadingAuthenticationState>
+
+
+@code {
+
+    private CircusShowDTO _menuDto = new CircusShowDTO();
+    private string _imgredients = string.Empty;
+    private string errorLabel = string.Empty;
+    private bool _showModal = false;
+
+    private async Task CreateCircusAsync()
+    {
+        //try {
+
+        //    await CircusService.CreateCircusShow(_menuDto);
+        //    _showModal = true;
+        //}
+        //catch (Exception e) {
+        //    Console.WriteLine(e);
+        //    errorLabel = $"Error : {e.Message}";
+        //}
+    }
+
+    private void Proceed()
+    {
+        _showModal = false;
+        navMgr.NavigateTo("/");
+    }
+
+}

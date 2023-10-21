@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\HttpClients\\HttpClients.csproj": {}
+  },
+  "projects": {
+    "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\Contracts\\Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\Contracts\\Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\DTO\\DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\HttpClients\\HttpClients.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\HttpClients\\HttpClients.csproj",
+        "projectName": "HttpClients",
+        "projectPath": "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\HttpClients\\HttpClients.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\HttpClients\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\Contracts\\Contracts.csproj"
+              },
+              "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\VIA\\Semester_03\\SEP3_Group2\\JulbliCircusBlazor123\\JulbliCircusBlazor\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

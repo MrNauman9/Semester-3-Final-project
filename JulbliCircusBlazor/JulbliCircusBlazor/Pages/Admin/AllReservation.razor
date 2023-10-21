@@ -1,0 +1,90 @@
+﻿@page "/Admin/AllReservations"
+@inject ICircusService CircusService;
+@inject IReservationService ReservationService;
+@inject NavigationManager navMgr;
+@using Contracts;
+@using DTO;
+
+<!-- Add the link to the CSS file in the head section -->
+<head>
+    <link href="/css/AllReservation.css" rel="stylesheet" />
+</head>
+<h3>All Reservations</h3>
+<CascadingAuthenticationState>
+ <!-- Add the StaticFile component here -->
+    <StaticFile src="/css/AllReservation.css" />
+    <AuthorizeView Policy="Admin">
+        <NotAuthorized>
+            <p> Guests dont have permission to update Circus Shows. Contact us if you have any suggestions</p>
+        </NotAuthorized>
+        <Authorized>
+            @if (_allReservations.Any())
+            {
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Id</td>
+                            <td>Title</td>
+                            <td>Location</td>
+                            <td>ReservedBy</td>
+                            <td>Delete</td>
+                        </tr>
+                    </thead>
+                </table>
+                foreach (ReservationDTO reservation in _allReservations)
+                {
+                    <tr>
+                        <td>@reservation.Id</td>
+                        <td>@reservation.circusShowDto.title</td>
+                        <td>@string.Join(',', reservation.circusShowDto.Location)</td>
+                        <td>@reservation.ReservedBy.FirstName @reservation.ReservedBy.LastName</td>
+                       <td> <Authorized> <button onclick="@(() => DeleteReservation(reservation.Id))">Delete</button> </Authorized></td>    
+                    </tr>
+                }
+            } else
+            {
+                <p>No Reservation Found</p>    
+            }
+        </Authorized>
+    </AuthorizeView>
+</CascadingAuthenticationState>
+
+
+@code {
+    private IEnumerable<ReservationDTO>? reservations;
+    private string msg = "";
+    private string errorLabel = string.Empty;
+    private bool _showModal = false;
+    private List<ReservationDTO> _allReservations = new List<ReservationDTO>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _allReservations = await ReservationService.GetAllReservations();
+    }
+    /*
+    private async Task DeleteReservation(int id)
+    {
+        await ReservationService.DeleteReservationById(id);
+        navMgr.NavigateTo("/");*/
+ 
+  
+    private async Task DeleteReservation(int id)
+    {
+        msg = "";
+        try
+        {
+            await ReservationService.DeleteReservationById(id);
+            
+            var list = new List<ReservationDTO>(reservations!);
+            list.RemoveAll(reservation => reservation.Id == id);
+            reservations = list.AsEnumerable();
+            OnInitializedAsync();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+      }
+    
+}

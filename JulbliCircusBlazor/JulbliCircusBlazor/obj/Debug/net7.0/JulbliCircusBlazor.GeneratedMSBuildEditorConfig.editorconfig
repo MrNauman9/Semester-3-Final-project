@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = JulbliCircusBlazor
+build_property.RootNamespace = JulbliCircusBlazor
+build_property.ProjectDir = D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\JulbliCircusBlazor\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\VIA\Semester_03\SEP3_Group2\JulbliCircusBlazor123\JulbliCircusBlazor\JulbliCircusBlazor
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Admin/AllReservation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWxsUmVzZXJ2YXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Admin/CreateShows.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ3JlYXRlU2hvd3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Admin/Shows.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Guest/BookShow.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3Vlc3RcQm9va1Nob3cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Guest/ShowFormModalm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3Vlc3RcU2hvd0Zvcm1Nb2RhbG0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Guest/Shows.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3Vlc3RcU2hvd3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Login/CreatAccount.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cQ3JlYXRBY2NvdW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Login/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wbyz87fpla
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ingkgtll5q
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VIA/Semester_03/SEP3_Group2/JulbliCircusBlazor123/JulbliCircusBlazor/JulbliCircusBlazor/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

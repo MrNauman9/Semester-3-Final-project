@@ -1,0 +1,38 @@
+﻿@page "/"
+@using System.Security.Claims;
+
+
+
+
+<PageTitle>Index</PageTitle>
+
+<h1>Jubli Circus Denmark!</h1>
+
+Welcome to the Best and Biggest Circus of Denmark.
+
+<p>@authMessage</p>
+
+
+<SurveyPrompt Title="Circus with international Players, fun, and much more?" />
+
+@code {
+    private string authMessage = "The user is NOT authenticated.";
+
+    [CascadingParameter]
+    private Task<AuthenticationState>? authenticationState { get; set; }
+    private ClaimsPrincipal? Loggeduser;
+    protected override async Task OnInitializedAsync()
+    {
+        if (authenticationState is not null)
+        {
+            var authState = await authenticationState;
+            var user = authState?.User;
+
+            if (user?.Identity is not null && user.Identity.IsAuthenticated)
+            {
+                Loggeduser = user;
+                authMessage = $"{user.Identity.Name} is authenticated.";
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+obj\Debug\net7.0\Protos/Reservation.cs \
+obj\Debug\net7.0\Protos/ReservationGrpc.cs: Protos/user.proto\
+ Protos/circusShow.proto\
+ Protos/reservation.proto

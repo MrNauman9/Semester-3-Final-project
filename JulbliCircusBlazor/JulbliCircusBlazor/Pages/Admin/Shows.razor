@@ -1,0 +1,61 @@
+﻿@page "/Admin/Shows"
+@inject ICircusService CircusService;
+@inject NavigationManager navMgr;
+@using Contracts;
+@using DTO;
+
+
+<h3>View Shows</h3>
+<CascadingAuthenticationState>
+    <AuthorizeView Policy="Admin">
+        <NotAuthorized>
+            <p> Guests dont have permission to update Circus Shows. Contact us if you have any suggestions</p>
+        </NotAuthorized>
+        <Authorized>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Description</td>
+                        <td>Price</td>
+                        <td>Duration</td>
+                        <td>StartTime</td>
+                        <td>EndTime</td>
+                        <td>Tickets Available</td>
+                        <td>Location</td>
+                    </tr>
+                </thead>
+            <tbody>
+            @foreach(CircusShowDTO show in shows)
+            {
+                        <tr>
+                            <td>@show.title</td>
+                            <td>@show.Description</td>
+                            <td>@show.Price</td>
+                            <td>@show.duration</td>
+                            <td>@show.startTime</td>
+                            <td>@show.endTime</td>
+                            <td>@show.totalTicketsAvailable</td>
+                            <td>@string.Join(',', show.Location)</td>
+                        </tr>
+            }
+                </tbody>
+            </table>
+        </Authorized>
+    </AuthorizeView>
+</CascadingAuthenticationState>
+
+
+@code {
+
+    private CircusShowDTO _menuDto = new CircusShowDTO();
+    private string _imgredients = string.Empty;
+    private string errorLabel = string.Empty;
+    private bool _showModal = false;
+    List<CircusShowDTO> shows = new List<CircusShowDTO>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        shows = await CircusService.GetAllCircusShows();
+    }
+}

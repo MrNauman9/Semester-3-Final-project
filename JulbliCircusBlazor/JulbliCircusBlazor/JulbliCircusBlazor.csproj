@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Guest\Shows.razor" />
+    <None Update="Pages\Admin\AllReservation.css">
+      <DependentUpon>AllReservation.razor</DependentUpon>
+    </None>
+    <None Include="wwwroot\css\AllReservation.css" />
+    <None Include="wwwroot\css\Shows.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HttpClients\HttpClients.csproj" />
+  </ItemGroup>
+
+</Project>

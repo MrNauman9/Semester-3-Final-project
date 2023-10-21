@@ -1,0 +1,42 @@
+﻿@inject IReservationService ReservationService;
+@inject ICircusService CircusService;
+@using Contracts;
+@using DTO;
+
+<!-- ShowFormModal.razor -->
+<div class="modal" style="display:block">
+    <div class="modal-content">
+        <h3>Edit Show (ID: @SelectedShow.Id)</h3>
+        <form>
+            <!-- Add your form fields here -->
+            <input type="hidden" id="circusShowId" @bind="SelectedShow.Id" />
+            <!-- For example: -->
+            <div class="form-group">
+                <label for="ReservedBy">Name</label>
+                <input type="text" id="ReservedBy" @bind="_reservationDTO.ReservedBy" />
+            </div>
+            <div class="form-group">
+                <label for="noOfTickets">Number of tickets</label>
+                <input type="text" id="noOfTickets" @bind="_reservationDTO.noOfTickets" />
+            </div>
+            <!-- Add other form fields as needed -->
+            <button @onclick="createServation">Save</button>
+            <button >Cancel</button>
+        </form>
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public CircusShowDTO SelectedShow { get; set; }
+
+    private CreateReservationDTO _reservationDTO = new CreateReservationDTO();
+    private async Task createServation()
+    {
+        _reservationDTO.circusShowId = SelectedShow.Id;
+        await ReservationService.CreateReservation(_reservationDTO);
+    }
+
+}
+

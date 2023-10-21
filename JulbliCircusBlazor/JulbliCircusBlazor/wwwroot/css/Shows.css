@@ -1,0 +1,57 @@
+/* Custom CSS for the Shows page */
+
+/* Style for the heading */
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style for the error message */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the container of the Circus Show content */
+.circus-show-container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style for the content inside the Circus Show container */
+.circus-show-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style for the modal dialog */
+.modal-dialog {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Style for the button inside the modal */
+.modal-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the button when hovered */
+.modal-button:hover {
+    background-color: #0056b3;
+}

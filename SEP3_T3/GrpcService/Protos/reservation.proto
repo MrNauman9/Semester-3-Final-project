@@ -1,0 +1,66 @@
+syntax = "proto3";
+option csharp_namespace = "grpcProtoFiles";
+import "Protos/user.proto";
+import "Protos/circusShow.proto";
+
+package reservation;
+
+service ReservationService {
+    rpc createReservation(CreateReservationRequest) returns (CreateReservationResponse) {}
+    rpc getReservationById(GetReservationRequest) returns (GetReservationResponse) {}
+    rpc getAllReservations(GetAllReservationsRequest) returns (GetAllReservationsResponse) {}
+    rpc getReservationsByUsername(GetReservationsByUserRequest) returns (GetReservationsByUserResponse) {}
+    rpc deleteReservationById(deleteReservationByIdRequest) returns (deleteReservationResponse) {}
+}
+
+message Reservation{
+    int32 id = 1;
+    user.User reservedBy = 2;
+    circusShow.CircusShow circusShow = 3;
+    //TODO wrong method name it should be ticket quantity instead of totalTicketsAvailable
+    int32 noOfTickets = 4;
+   // bool isDelivered = 5;
+}
+
+
+message GetReservationsByUserRequest{
+    string username = 1;
+}
+
+message GetReservationsByUserResponse{
+    repeated Reservation reservations = 1;
+}
+message deleteReservationResponse{
+    Reservation reservation = 1;
+}
+message GetAllReservationsRequest{
+
+}
+message GetAllReservationsResponse{
+    repeated Reservation reservations = 1;
+}
+
+message GetReservationRequest{
+    int32 id = 1;
+}
+
+message GetReservationResponse{
+    Reservation reservation = 1;
+}
+message deleteReservationByIdRequest{
+    int32 id = 1;
+}
+message deleteReservationByIdResponse{
+    Reservation reservation = 1;
+}
+message CreateReservationRequest{
+    int32 circusShowId = 1;
+    string reservedByUsername = 2;
+    int32 noOfTickets = 3;
+}
+
+message CreateReservationResponse{
+    Reservation reservation = 1;
+}
+
+
